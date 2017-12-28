@@ -1,0 +1,22 @@
+{
+"version": "1.0",
+"sessionAttributes": null,
+"response": {
+    "outputSpeech": null,
+	"card": null,
+	"directives": [
+	 {
+	     "type": "VideoApp.Launch",
+		 "videoItem":
+		 {
+		     "source": "https://www.example.com/video/sample-video-1.mp4",
+			 "metadata": {
+			     "title": "Title for Sample Video",
+			     "subtitle": "Secondary Title for Sample Video"				 
+			 }
+		 }
+    }	 
+	 ],
+	 "reprompt": null
+    }
+}
