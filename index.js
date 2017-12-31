@@ -11,12 +11,12 @@ const handlers = {
     		'title': 'Sample VOD',
     		'subtitle': 'Partner: Launchpad'
     	};
-    	this.response.playVideo(videoSource, metadata);
-    	this.emit(':responseReady');
+    	this.response.playVideo( videoSource, metadata );
+    	this.emit( ':responseReady' );
 	},
 	'SessionEndedRequest' : function() {
 		this.response.speak( "Goodbye" );
-		this.emit(':responseReady');	
+		this.emit( ':responseReady' );	
 	}
 };
 
